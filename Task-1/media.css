@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 767px) {
+    .inner{
+        flex-direction: column;
+        padding: 15px 15px;
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .left{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+
+        h1{
+            font-size: 40px;
+        }
+    }
+    .right{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+
+        label{
+            font-size: 15px;
+        }
+        button{
+            width: 100%;
+        }
+   }
+   .style{
+        width: 80px;
+        height: 80px;
+   }
+   #style1{
+        top: -20px;
+        right:-20px;
+        left: auto;
+        bottom: auto;
+    }
+    #style2{
+        left: -20px;
+        bottom: -20px;
+    }
+}   

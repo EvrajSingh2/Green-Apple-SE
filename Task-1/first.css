@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Asset\ 1@11x.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.inner{
+    display: flex;
+    padding: 80px;
+    width: 100%;
+}
+.style{
+    position: absolute;
+    width: 100px;
+    height: 100px;  
+}
+#style1{
+    bottom: -40px;
+    left:-50px;
+}
+#style2{
+    bottom: -40px;
+    left:50px;
+}
+.right{
+    background-color: #F2D053;
+    border-top-right-radius: 5px; 
+    width:45%;
+    height: 650px;
+    padding: 30px 100px;
+    
+}
+  
+label{
+    font: 1em sans-serif;
+    font-weight: bold;
+    color: #281E63;
+    position: relative;
+    left: 15px;
+    margin-bottom: 5px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 10px;
+    color: #281E63;
+    opacity: 0.9;
+    padding-left: 15px;
+    margin-top: 3px;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    padding-left: 15%;
+    opacity: 0.9;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 3px;
+}
+
+button{
+    background-color: #5A3CFF;
+    color: white;
+    font-weight: bold;
+    border: 0px solid white;
+    border-radius: 10px;
+    padding: 10px;   
+}
+
+.left{
+    background-color: #FDF3EA;
+    border-top-left-radius: 5px;
+    position: relative; 
+    width: 55%;
+    height: 650px;
+    padding: 80px;
+
+}
+
+.left h1{
+    font: 2em sans-serif;
+    font-weight: bold;
+    letter-spacing: -3px;
+    font-size: 50px;
+    color: #281E63;
+    
+}
+
+
+.left p{
+    font: 1em sans-serif;
+    font-size: 20px;
+    color: #281E63;
+    margin-top: 5px;
+}
+
+.main-img{
+    padding-top: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 450px;
+}
