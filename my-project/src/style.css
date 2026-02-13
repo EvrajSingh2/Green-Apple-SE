@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+input{
+    @apply cursor-pointer;
+}
+
+input[type="text"],[type="email"],[type="tel"]{
+    @apply px-2;
+}

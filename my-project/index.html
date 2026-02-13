@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="top bg-linear-to-r from-[#EC3F40] to-[#95278D] h-[10vw]"></div>
+  <h1 class="text-[10vw] mt-1 font-medium text-center">Application Form</h1>
+  <h2 class="mx-[3vw] md:mx-[6vw] mt-10 mb-5 font-light text-[25px] md:text-2xl md:my-8 lg:text-3xl lg:my-10">General Questions</h2>
+  <div class="font-light mx-[5vw] md:mx-[8vw]">
+    <div class="md:flex items-center justify-center md:gap-5">
+      <label class="text-nowrap">Proposed Insured's Name: <br> <span class="text-[12px]">(Please use capital letters
+          only)</span></label>
+      <input type="text" class="w-full border-2 outline-none border-gray-400 md:h-10 mt-2 md:mt-0 p-1 md:p-0">
+    </div>
+    <div class="flex flex-col md:flex-row md:gap-5 mt-5 text-nowrap md:items-center md:justify-center">
+      <label>Birth Date:
+        <input class="w-28.75 ml-3" type="date">
+      </label>
+      <span class="flex mt-3 md:mt-0">Gender:
+        <label for="male" class="ml-3 flex items-center gap-2">
+          <input type="radio" name="gender" id="male" value="male" class="w-4 h-4 md:w-6 md:h-6">male
+        </label>
+        <label for="female" class="ml-3 flex items-center gap-2">
+          <input type="radio" name="gender" id="female" value="female" class="w-4 h-4 md:w-6 md:h-6">female
+        </label>
+      </span>
+      <div class="flex flex-col md:flex-row md:items-center md:justify-center md:gap-5 mt-3 md:mt-0 md:flex-1">
+        <label>Passport no:</label>
+        <input type="text" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0">
+      </div>
+    </div>
+    <div class="md:flex items-center justify-center md:gap-5 mt-5">
+      <label>Address:</label>
+      <input type="text" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0">
+    </div>
+
+    <div class="flex flex-col md:flex-row  md:gap-5 mt-5 md:items-center md:justify-center">
+      <label class="md:text-nowrap ">Phone Number:</label>
+      <input type="tel" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0 ">
+
+      <label class="md:text-nowrap mt-5 md:mt-0 ">Email:</label>
+      <input type="email" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0 ">
+    </div>
+
+    <div class="flex flex-col md:flex-row  md:gap-5 mt-5 md:items-center md:justify-center">
+      <label class="md:text-nowrap ">ID Number:</label>
+      <input type="text" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0 ">
+
+      <label class="md:text-nowrap mt-5 md:mt-0 ">Social Security Number:</label>
+      <input type="text" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0 ">
+    </div>
+
+    <div class="flex flex-wrap gap-5 mt-5 items-center">Status:
+      <label for="single" class="flex items-center gap-2">
+        <input type="radio" name="status" id="single" value="single" class="w-4 h-4 md:w-6 md:h-6">single
+      </label>
+      <label for="married" class="flex items-center gap-2">
+        <input type="radio" name="status" id="married" value="married" class="w-4 h-4 md:w-6 md:h-6">married
+      </label>
+      <label for="Divorced" class="flex items-center gap-2">
+        <input type="radio" name="status" id="divorced" value="divorced" class="w-4 h-4 md:w-6 md:h-6">divorced
+      </label>
+      <label for="others" class="flex items-center gap-2">
+        <input type="radio" name="status" id="others" value="others" class="w-4 h-4 md:w-6 md:h-6">others
+      </label>
+    </div>
+
+    <div class="mt-5 md:flex items-center justify-center md:gap-5">
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="occupation" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0">
+      <span class="flex items-center text-nowrap mt-5 md:mt-0">Are you retired?
+        <label for="yes" class="ml-5 flex items-center gap-2">
+          <input type="radio" name="retired" id="yes" value="yes" class="w-4 h-4 md:w-6 md:h-6">yes
+        </label>
+        <label for="no" class="ml-5 flex items-center gap-2">
+          <input type="radio" name="retired" id="no" value="no" class="w-4 h-4 md:w-6 md:h-6">no
+        </label>
+      </span>
+    </div>
+  </div>
+
+  <h2 class="mx-[3vw] md:mx-[6vw] mt-10 mb-5 font-light text-[25px] md:text-2xl md:my-8 lg:text-3xl lg:my-10">Personal Details</h2>
+  <div class="font-light mx-[5vw] md:mx-[8vw]">
+    <div class="md:flex items-center justify-center mt-5">
+      <label class="text-nowrap">Name of Benificiary:</label>
+      <input type="text" class="w-full border-2 outline-none md:ml-5 border-gray-400 mt-2 p-1 md:p-0">
+    </div>
+    <div class="md:flex items-center justify-center mt-5">
+      <label class="text-nowrap">Bank Account: <span class="text-[12px]">(or ID number for confirmation
+          only)</span></label>
+      <input type="text" class="w-full border-2 outline-none md:ml-5 border-gray-400 mt-2 p-1 md:p-0">
+    </div>
+
+    <div class="mt-5">
+      <label class="text-nowrap">Name and Address of Benificiary:</label>
+      <input type="text" class="w-full border-2 outline-none  border-gray-400 mt-2 p-1 md:p-0">
+      <input type="text" class="w-full border-2 outline-none border-t-0  border-gray-400 p-1 md:p-0">
+    </div>
+
+    <div class="flex flex-col md:flex-row mt-5">
+      <div class="md:border-2 md:border-r-0 md:border-gray-400 md:p-4 md:flex-1">
+        <div class="flex items-center text-nowrap mt-5 md:mt-0">Employee:
+          <label for="yes" class="ml-5 flex items-center gap-2">
+            <input type="radio" name="employee_plan" id="yes" value="yes" class="w-4 h-4 md:w-6 md:h-6">yes
+          </label>
+          <label for="no" class="ml-5 flex items-center gap-2">
+            <input type="radio" name="employee_plan" id="no" value="no" class="w-4 h-4 md:w-6 md:h-6">no
+          </label>
+        </div>
+        <div class="hidden md:block">Plan Choice:</div>
+      </div>
+      <div class="md:border-2 md:border-r-0 md:border-gray-400 md:p-4 md:flex-1">
+        <div class="flex items-center text-nowrap mt-5 md:mt-0">Spouse:
+          <label for="yes" class="ml-5 flex items-center gap-2">
+            <input type="radio" name="spouse_plan" id="yes" value="yes" class="w-4 h-4 md:w-6 md:h-6">yes
+          </label>
+          <label for="no" class="ml-5 flex items-center gap-2">
+            <input type="radio" name="spouse_plan" id="no" value="no" class="w-4 h-4 md:w-6 md:h-6">no
+          </label>
+        </div>
+        <div class="hidden md:block">Plan Choice:</div>
+      </div>
+      <div class="md:border-2 md:border-gray-400 md:p-4 md:flex-1">
+        <div class="flex items-center text-nowrap mt-5 md:mt-0">Children:
+          <label for="yes" class="ml-5 flex items-center gap-2">
+            <input type="radio" name="children_plan" id="yes" value="yes" class="w-4 h-4 md:w-6 md:h-6">yes
+          </label>
+          <label for="no" class="ml-5 flex items-center gap-2">
+            <input type="radio" name="children_plan" id="no" value="no" class="w-4 h-4 md:w-6 md:h-6">no
+          </label>
+        </div>
+        <div class="mt-5 md:mt-0">Plan Choice:</div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row mt-5 md:gap-5">
+      <div class="bg-gray-200 p-4 flex-1">
+        <label class="flex items-center gap-2">
+          <input type="radio" name="plan_choice" id="plan1" value="plan1" class="w-4 h-4 md:w-6 md:h-6">PLAN A
+        </label>
+        <p class="ml-8 mt-2">
+          Starting from $25 per week" <br>
+          (prices excl. VAT, activation fees apply) <br>
+          See more details on page 17
+        </p>
+      </div>
+      <div class="bg-gray-200 p-4 mt-3 md:mt-0 flex-1">
+        <label class="flex items-center gap-2">
+          <input type="radio" name="plan_choice" id="plan2" value="plan2" class="w-4 h-4 md:w-6 md:h-6">PLAN B <span
+            class=" text-red-600 font-normal"> JOIN NOW!</span>
+        </label>
+        <p class="ml-8 mt-2">
+          Starting from THB $21 per week" <br> (prices excl. VAT.) <br>
+          See more details on page 17
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="mx-[3vw] md:mx-[6vw] mt-10 font-light text-[25px] md:text-2xl md:mt-5 md:mb-3 lg:text-3xl lg:mt-7 lg:mb-4">The Policy
+  </h2>
+  <div class="font-light mx-[5vw] md:mx-[8vw]">
+    <div class="flex flex-col md:flex-row  md:gap-5 mt-5 md:items-center md:justify-center">
+      <label class="text-nowrap">Units:</label>
+      <input type="text" class="w-full border-b-2 outline-none border-gray-400 p-1 md:p-0">
+      <label class="text-nowrap mt-5">Annual Premium:</label>
+      <input type="text" class="w-full border-b-2 outline-none border-gray-400 p-1 md:p-0">
+    </div>
+
+    <div class="flex">
+      <div class="mt-5 md:text-nowrap">Payment Mode:</div>
+      <div class="flex md:text-nowrap flex-col md:flex-row mt-5 ml-5 md:gap-12">
+        <label for="Annual" class="flex items-center gap-2">
+          <input type="radio" name="status" id="Annual" value="Annual" class="w-4 h-4 md:w-6 md:h-6 ">Annual
+        </label>
+        <label for="Semi-Annual" class="flex items-center gap-2 mt-2 md:mt-0 md:ml-2">
+          <input type="radio" name="status" id="Semi-Annual" value="Semi-Annual" class="w-4 h-4 md:w-6 md:h-6">Semi-Annual
+        </label>
+        <label for="Monthly" class="flex items-center gap-2 mt-2 md:mt-0 md:ml-2">
+          <input type="radio" name="status" id="Monthly" value="Monthly" class="w-4 h-4 md:w-6 md:h-6">Monthly PAT (complete PAT card)
+        </label>
+      </div>
+    </div>
+
+    <div class="md:flex items-center justify-center md:gap-5 mt-5">
+      <label class="text-nowrap">Cash with Application:</label>
+      <div class="flex items-center gap-2 md:flex-1"> $
+        <input type="text" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0">
+      </div>
+    </div>
+    <div class="md:flex w-full items-center md:gap-5 mt-5">
+      <label class="text-nowrap">Planned modal premium:</label>
+      <div class="flex items-center gap-2 md:flex-1"> $
+        <input type="text" class="w-full border-b-2 outline-none border-gray-400 mt-2 p-1 md:p-0">
+      </div>
+    </div>
+  </div>
+
+  <div class="  px-5 md:px-20 py-7 mt-10 flex flex-col md:flex-row bg-gray-200 md:gap-15">
+    <div>
+      Terms & Conditions<br>
+      Improvement should be measured regularly and assessed in order for you to know what's beneficial and what is not.
+      This will help you set new targets.
+    </div>
+    <div class="flex flex-col">
+      <label class="mt-5 md:mt-0">Signature:</label>
+      <input type="text" value="X" class="text-blue-800 bg-white mt-2 p-2">
+      <div class="flex">
+        <label class="mt-5">Date:
+        </label>
+        <input type="text" class="border-gray-500 outline-none border-b-2 mt-2 ml-2">
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
