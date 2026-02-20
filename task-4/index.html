@@ -57,7 +57,8 @@
                     </path>
                   </svg>
                 </div>
-                <div class="st:flex st:flex-col st:w-full st:items-start st:justify-center st:gap-[5px] st:mb-[20px]">
+                <div
+                  class="st:flex st:flex-col st:w-full st:items-start st:justify-center st:shrink-0 st:gap-[5px] st:mb-[20px]">
 
                   <div class=" st:flex st:items-center st:w-full  st:justify-between st:cursor-pointer">
                     <div class="st:hidden st:flex st:items-center st:justify-center st:gap-[8px]">
@@ -88,19 +89,29 @@
                     <p class="st:text-[14px] st:text-[#213555]">(07)</p>
                   </div>
 
-                  <div
-                    class="st:flex st:items-center st:justify-between st:w-full st:cursor-pointer st:font-[700] st:letter-spacing:[0.6px]">
-                    <div class="st:hidden st:flex st:items-center st:gap-[8px]">
-                      <input type="checkbox" id="acne" value="Acne and Pimples" class="st:w-[18px] st:h-[18px]">
-                      <label for="acne" class="st:text-[14px] st:text-[#213555]">Ageing and Pigmentation</label>
+                  <div class="st:block st:w-full st:items-center">
+                    <div
+                      class="st:flex st:items-start st:w-full st:cursor-pointer st:font-[700] st:letter-spacing:[0.6px]">
+                      <div class="st:hidden st:flex st:items-center st:gap-[8px]">
+                        <input type="checkbox" id="acne" value="Acne and Pimples" class="st:w-[18px] st:h-[18px]">
+                        <label for="acne" class="st:text-[14px] st:text-[#213555] st:text-nowrap">Ageing and
+                          Pigmentation</label>
+                      </div>
+                      <div class="st:flex st:items-center st:gap-[8px] st:shrink-0 st:w-[75%]">
+                        <div class="st:flex st:flex-nowrap st:gap-[8px] st:items-start">
+                          <span class="st:border-[1px] st:w-[16px] st:h-[16px] st:mt-[2px]"></span>
+                          <span
+                            class="st:text-[14px] st:text-[#213555] st:font-[700] st:letter-spacing:[0.6px] st:text-wrap">Ageing
+                            and Pigmentation</span>
+                        </div>
+                      </div>
+                      <div class="st:w-[25%]">
+                        <p class="st:text-[14px] st:text-[#213555] st:text-right">(21)</p>
+                      </div>
+
                     </div>
-                    <div class="st:flex st:items-center st:justify-center st:gap-[8px]">
-                      <span class="st:border-[1px] st:w-[16px] st:h-[16px]"></span>
-                      <span class="st:text-[14px] st:text-[#213555] st:font-[700] st:letter-spacing:[0.6px]">Ageing and
-                        Pigmentation</span>
-                    </div>
-                    <p class="st:text-[14px] st:text-[#213555]">(21)</p>
                   </div>
+
 
                   <div
                     class="st:flex st:items-center st:justify-between st:w-full st:cursor-pointer st:font-[700] st:letter-spacing:[0.6px]">
@@ -444,9 +455,10 @@
 
 
         <div class="st:w-full st:md:w-[75%] st:lg:w-[80%] st:items-start st:pb-[8px]">
-           <div
+          <div
             class="st:hidden st:flex st:flex-col st:md:hidden st:bg-white st:w-full st:h-1/2 st:px-[20px] st:gap-[15px] st:fixed st:bottom-0 st:left-0 st:z-30">
-            <div class="st:flex  st:border-b-[1px] st:w-full st:border-gray-300 st:outline-none st:items-center st:justify-start st:gap-[120px] st:py-[12px]">
+            <div
+              class="st:flex  st:border-b-[1px] st:w-full st:border-gray-300 st:outline-none st:items-center st:justify-start st:gap-[120px] st:py-[12px]">
               <p class="st:text-black st:text-[16.56px]">✖</p>
               <p class="st:text-[16.56px] st:font-[400]">SORT BY</p>
             </div>
@@ -473,7 +485,8 @@
                   <path d="m275.565 361.679-223.897-223.896h-51.668l275.565 275.565 275.565-275.565h-51.668z"></path>
                 </svg>
               </div>
-              <div class="st:hidden st:flex st:flex-col st:border-[1px] st:bg-white st:text-black st:w-full st:py-[5px] st:gap-[5px] st:absolute st:top-[20px] st:left-0 st:z-30">
+              <div
+                class="st:hidden st:flex st:flex-col st:border-[1px] st:bg-white st:text-black st:w-full st:py-[5px] st:gap-[5px] st:absolute st:top-[20px] st:left-0 st:z-30">
                 <p class="st:text-[14px] st:capitalize st:font-[400] st:letter-spacing:[0.4px]">Relevance</p>
                 <p class="st:text-[14px] st:capitalize st:font-[400] st:letter-spacing:[0.4px]">price: low to high</p>
                 <p class="st:text-[14px] st:capitalize st:font-[400] st:letter-spacing:[0.4px]">price: high to low</p>
